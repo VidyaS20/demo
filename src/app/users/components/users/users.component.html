@@ -1,0 +1,21 @@
+<div class="container mt-2">
+  <div class="row">
+    <div class="col-md-4 mt-4" *ngFor="let user of users">
+      <div class="card ">
+        <h5 class="card-header">{{user.name}}</h5>
+        <div class="card-body">
+          <h5 class="card-title"><span class="badge text-bg-success">Personal Details</span></h5>
+          <h6 class="card-text">Email: {{user.email}}</h6>
+          <h6 class="card-text">Phone: {{user.phone}}</h6>
+          <h6 class="card-text">City: {{user.address.city}}</h6>
+
+          <hr>
+          <h5 class="card-title"><span class="badge text-bg-warning">Company Details</span></h5>
+          <h6 class="card-text">Name: {{user.company.name}}</h6>
+          <h6 class="card-text">Website: {{user.website}}</h6>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
