@@ -9,50 +9,50 @@ export class ProductsComponent implements OnInit {
 
   products= [
     {
-      name: 'Vaniila Falour',
-      price: 2000,
+      name: 'Mobile Phone',
+      price: 20000,
       image: "https://via.placeholder.com/200",
       description: "Some quick example text to build on the card title."
     },
     {
-      name: 'Raspberry Falour',
+      name: 'Refrigerator',
+      price: 24000,
+      image: "https://via.placeholder.com/200",
+      description: "Some quick example text to build on the card title."
+    },
+    {
+      name: 'Television',
+      price: 12000,
+      image: "https://via.placeholder.com/200",
+      description: "Some quick example text to build on the card title."
+    },
+    {
+      name: 'Laptop',
+      price: 75000,
+      image: "https://via.placeholder.com/200",
+      description: "Some quick example text to build on the card title."
+    },
+    {
+      name: 'Washing Machine',
+      price: 28000,
+      image: "https://via.placeholder.com/200",
+      description: "Some quick example text to build on the card title."
+    },
+    {
+      name: 'Watch',
       price: 5000,
       image: "https://via.placeholder.com/200",
       description: "Some quick example text to build on the card title."
     },
     {
-      name: 'Vaniila Falour',
-      price: 2000,
+      name: 'Air Conditioner',
+      price: 20000,
       image: "https://via.placeholder.com/200",
       description: "Some quick example text to build on the card title."
     },
     {
-      name: 'Raspberry Falour',
-      price: 5000,
-      image: "https://via.placeholder.com/200",
-      description: "Some quick example text to build on the card title."
-    },
-    {
-      name: 'Vaniila Falour',
-      price: 2000,
-      image: "https://via.placeholder.com/200",
-      description: "Some quick example text to build on the card title."
-    },
-    {
-      name: 'Raspberry Falour',
-      price: 5000,
-      image: "https://via.placeholder.com/200",
-      description: "Some quick example text to build on the card title."
-    },
-    {
-      name: 'Vaniila Falour',
-      price: 2000,
-      image: "https://via.placeholder.com/200",
-      description: "Some quick example text to build on the card title."
-    },
-    {
-      name: 'Raspberry Falour',
-      price: 5000,
+      name: 'Air Cooler',
+      price: 10000,
       image: "https://via.placeholder.com/200",
       description: "Some quick example text to build on the card title."
     }
