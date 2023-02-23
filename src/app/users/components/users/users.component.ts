@@ -21,7 +21,6 @@ export class UsersComponent implements OnInit {
   }
 
   checkboxClicked(id: any ){
-    console.log('checkbox clicked',id);
     this.isLoading = true;
     setTimeout(() => {
       this.userServ.getUser(id).subscribe(response=>{
