@@ -10,7 +10,12 @@ export class UserService {
 
   constructor(private http: HttpClient) { }
 
-  getUsers(){
+  getAllUsers(){
     return this.http.get(this.url)
+  }
+
+
+  getUser(id: any){
+    return this.http.get(this.url +'/'+id)
   }
 }

@@ -1,3 +1,13 @@
 .card:hover {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
+.margin{
+  margin-left: 12px;
+
+}
+.text-red{
+  color: rgb(122, 8, 8);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
