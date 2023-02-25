@@ -11,3 +11,12 @@
   text-overflow: ellipsis;
   overflow: hidden;
 }
+
+.text-eipse{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.card{
+  cursor: pointer;
+}
